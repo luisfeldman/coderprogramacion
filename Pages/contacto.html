@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../CSS/Styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- prueba de formulario shift + alt + a -->
+    <div class="gridcontacto">
+      <div class="titulocontacto">
+        <header>
+          <h1>Formulario de contacto</h1>
+        </header>
+      </div>
+      <div class="indicecontacto">
+        <nav>
+          <ul>
+            <li><a href="./../index.html">Inicio</a></li>
+            <li><a href="Flota.html"> Flota</a></li>
+            <li><a href="Oficinas.html"> Oficinas</a></li>
+            <li><a href="Coberturas.html"> Coberturas</a></li>
+            <li><a href="contacto.html"> Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <div class="principal">
+          <form action="">
+            <fieldset>
+              <legend>Mi formulario</legend>
+              <label for="Nombre">Nombre:</label>
+              <input type="text" name="Nombre" id="Nombre" />
+              <br />
+              <label for="Apellido">Apellido</label>
+              <input type="text" name="Apellido" id="Apellido" />
+
+              <br />
+              Hombre
+              <input type="radio" name="Sexo" value="hombre" />
+              Mujer
+              <input type="radio" name="Sexo" value="Mujer" />
+              <br />
+              <div>Acepta los terminos y condiciones?</div>
+              <input type="checkbox" name="Acepta" value="1" />
+              <br />
+
+              <select name="Tipo contacto" id="Tipo de Contacto">
+                <option value="Consulta sobre una reserva">
+                  Consulta sobre una reserva
+                </option>
+                <option value="Reservar">Reservar</option>
+                <option value="Reclamo">Reclamo</option>
+              </select>
+              <br />
+              <label for="mensaje">Mensaje</label>
+              <br />
+              <textarea
+                name="mensaje"
+                placeholder="Escriba aqui su mensaje y le responderemos a la brevedad"
+                id="mensaje"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <br />
+              <input type="submit" value="Enviar Formulario" />
+              <input type="reset" value="Borrar formulario" />
+            </fieldset>
+          </form>
+        </div>
+      </main>
+      <div class="divfooter">
+        <footer>Creado por Luis Feldman</footer>
+      </div>
+    </div>
+  </body>
+</html>
