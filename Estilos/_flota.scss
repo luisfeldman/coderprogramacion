@@ -1,0 +1,19 @@
+.gridflota {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(93, 184, 184);
+  padding: 10px;
+  border: 1px solid black;
+}
+.tituloflota {
+  grid-column: 1 / 5;
+}
+.indiceflota {
+  grid-column: 1 / 4;
+}
+.footerflota {
+  grid-column: 1 / 5;
+}
+.principalflota {
+  grid-column: 1 / 3;
+}

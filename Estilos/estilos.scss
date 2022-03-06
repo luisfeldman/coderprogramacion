@@ -1,0 +1,45 @@
+@import "index";
+
+@import "contacto";
+
+@import "general";
+
+@import "flota";
+
+.container1 {
+  grid-column: 1 / 1;
+}
+.container2 {
+  grid-column: 1 / span 1;
+}
+.titulocoberturas {
+  color: rgb(47, 0, 255);
+  grid-row: 1 / 5;
+}
+
+.gridoficinas {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(93, 184, 184);
+  padding: 10px;
+  border: 1px solid black;
+}
+.headeroficinas {
+  grid-column: 1 / 4;
+}
+.indiceoficinas {
+  grid-column: 1 / 2;
+}
+.video {
+  grid-column: 1 / 4;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.footeroficinas {
+  grid-column: 1 / 5;
+}

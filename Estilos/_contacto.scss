@@ -1,0 +1,15 @@
+.gridcontacto {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(93, 184, 184);
+  padding: 10px;
+  border: 1px solid black;
+
+  .titulocontacto {
+    grid-column: 1 / 5;
+
+    .indicecontacto {
+      grid-column: 1 / 1;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  h1 {
+    color: blue;
+    text-decoration-line: underline;
+    text-align: center;
+    h2 {
+      color: blueviolet;
+      text-align: center;
+      h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        footer {
+          margin-top: 10px;
+          div {
+            border-bottom: solid rgb(15, 207, 31);
+            border-top: solid rgb(64, 27, 150);
+            border-left: solid rgb(187, 206, 20);
+            border-right: solid rgb(190, 22, 22);
+            margin-right: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.grid-container {
+  display: grid;
+  background-color: rgb(93, 184, 184);
+  padding: 10px;
+  border: 1px solid black;
+  grid-template-columns: auto auto;
+}
