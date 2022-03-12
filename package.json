@@ -1,0 +1,23 @@
+{
+  "name": "coder-programacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch estilos:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfeldman/coderprogramacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisfeldman/coderprogramacion/issues"
+  },
+  "homepage": "https://github.com/luisfeldman/coderprogramacion#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
