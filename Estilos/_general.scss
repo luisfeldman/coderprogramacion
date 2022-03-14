@@ -1,10 +1,15 @@
+@mixin estilostexto {
+  background-color: aqua;
+  color: blue;
+  text-decoration-line: underline;
+  text-align: center;
+}
 * {
   margin: 0;
   padding: 0;
   h1 {
-    color: blue;
-    text-decoration-line: underline;
-    text-align: center;
+    @include estilostexto;
+
     h2 {
       color: blueviolet;
       text-align: center;
