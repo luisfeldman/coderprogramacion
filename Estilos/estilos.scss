@@ -1,3 +1,5 @@
+@import "general";
+
 @import "index";
 
 @import "contacto";
@@ -5,6 +7,19 @@
 @import "general";
 
 @import "flota";
+
+$ancho: 1200px;
+
+.video {
+  grid-column: 1 / 4;
+  width: $ancho/2;
+  max-width: 900px;
+  margin: 0 auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}
 
 .container1 {
   grid-column: 1 / 1;
@@ -30,16 +45,7 @@
 .indiceoficinas {
   grid-column: 1 / 2;
 }
-.video {
-  grid-column: 1 / 4;
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-video {
-  width: 100%;
-  height: auto;
-}
+
 .footeroficinas {
   grid-column: 1 / 5;
 }
